@@ -13,10 +13,13 @@
         android:theme="@style/Theme.ImeldaApp"
         tools:targetApi="31">
         <activity
+            android:name=".ImeldaActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="false" />
         <activity
-            android:name=".ImeldaActivity"
+            android:name=".KalkulatorActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.ImeldaApp">
